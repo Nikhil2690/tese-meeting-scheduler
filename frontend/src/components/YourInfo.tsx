@@ -4,9 +4,9 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 interface YourInfoProps {
-  selectedDate: Date;
-  selectedTime: string; // Expected format "16:30"
-  onBack: () => void;
+  selectedDate?: Date;
+  selectedTime?: string; // Expected format "16:30"
+  onBack?: () => void;
 }
 
 const YourInfo: React.FC<YourInfoProps> = ({ selectedDate, selectedTime, onBack }) => {
