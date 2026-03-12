@@ -73,8 +73,18 @@ There is an error in react-day-picker and the leftIcon is highlighting this -
 showing this Object literal may only specify known properties, and 'IconLeft' does not exist in type 'Partial<CustomComponents>'.
 
 Prompt - #8
+
+When the user switches dates on the calendar, there’s a slight delay while the API fetches slots. How can I implement a Loader2 spinner from Lucide-React that only shows inside the time-slot container so the UI feels smooth and responsive
+
 Prompt - #9
+
+need to implement the timezone selector. How can I ensure that when a user changes the timezone, the frontend triggers a new fetch to the backend with the updated timezone string so the available slots convert to the correct local time
+
+
 Prompt - #10
+
+I have the 'Your Info' form ready. How do I wire up the onSubmit handler to send a POST request to my Node.js /api/bookings endpoint with the user's details, the selected date, the time slot, and the timezone, then redirect them to the confirmation page
+
 Prompt - #11
 
 I am building the backend for a meeting scheduler using Node.js, Express, and MongoDB (Mongoose).
@@ -179,24 +189,12 @@ the connector line in this one has the line overflowing outside the dots on both
 
 Prompt - #23
 
+The calendar is showing 32 slots in Postman for March 11th, but when I use startOfToday() in my React component, the slots disappear. Why is this happening and how can I fix the logic so the slots show up correctly while still disabling past dates and weekends
 
 Prompt - #24
 
+I want to implement the bonus requirement for an Admin view. How can I create a separate dashboard route in React to integrate with my getAllBookings API? I need it to show a professional table of all attendees, their chosen date/time, and their timezone.
 
 Prompt - #25
-Prompt - #26
-Prompt - #27
-Prompt - #28
-Prompt - #29
-Prompt - #30
-Prompt - #31
-Prompt - #32
-Prompt - #33
-Prompt - #34
-Prompt - #35
-Prompt - #36
-Prompt - #37
-Prompt - #38
-Prompt - #39
-Prompt - #40
 
+After a booking is successfully saved to MongoDB, I need to send a confirmation email. How can I integrate Nodemailer (or Resend) in my backend controller to trigger an email that includes the meeting summary and a simulated Google Meet link
